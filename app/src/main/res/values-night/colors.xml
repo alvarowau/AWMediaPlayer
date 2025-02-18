@@ -1,0 +1,21 @@
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#121212</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="icon_color_dark">#FFFFFF</color>
+
+        <!-- Colores para el modo oscuro -->
+        <color name="greeting_strong">#FF6347</color>
+        <color name="greeting_weak">#707070</color>
+        <color name="greeting_normal">#E0E0E0</color>
+
+
+
+</resources>

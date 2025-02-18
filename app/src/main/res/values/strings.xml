@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AWMediaPlayer</string>
+    <string name="message_default_url">Ingrese la URL del video</string>
+    <string name="reproducir">▶ Reproducir</string>
+    <string name="ajustes">⚙ Ajustes</string>
+    <string name="general_settings">Configuraciones Generales</string>
+    <string name="video_quality">Calidad de video</string>
+    <string name="video_quality_summary">Selecciona la calidad de reproducción del video</string>
+    <string name="default_volume">Volumen predeterminado</string>
+    <string name="default_volume_summary">Ajusta el volumen inicial de reproducción</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="dark_mode_summary">Activa el modo oscuro para la interfaz del reproductor</string>
+    <string name="greeting_strength">Intensidad del saludo</string>
+    <string name="greeting_strength_summary">Selecciona la intensidad del saludo</string>
+    <string name="additional_preferences">Preferencias adicionales</string>
+    <string name="enabled_features">Características habilitadas</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="default_user_name">UserAW</string>
+    <string name="user_name_summary">Introduce tu nombre de usuario</string>
+    <string name="enable_notifications">Habilitar notificaciones</string>
+    <string name="enable_notifications_summary">Activa o desactiva las notificaciones</string>
+</resources>

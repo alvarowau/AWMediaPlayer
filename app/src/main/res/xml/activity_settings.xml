@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/general_settings"
+        android:icon="@drawable/icon_general">
+
+        <ListPreference
+            android:key="video_quality"
+            android:title="@string/video_quality"
+            android:summary="@string/video_quality_summary"
+            android:entries="@array/video_quality_entries"
+            android:entryValues="@array/video_quality_values"
+            android:defaultValue="Auto"
+            android:icon="@drawable/icon_quality"/>
+
+        <SeekBarPreference
+            android:key="volume"
+            android:title="@string/default_volume"
+            android:summary="@string/default_volume_summary"
+            android:min="0"
+            android:max="100"
+            android:defaultValue="50"
+            android:icon="@drawable/icon_volume"/>
+
+        <SwitchPreference
+            android:key="dark_mode"
+            android:title="@string/dark_mode"
+            android:summary="@string/dark_mode_summary"
+            android:defaultValue="false"
+            android:icon="@drawable/icon_dark_mode"/>
+
+        <ListPreference
+            android:key="greeting_strength"
+            android:title="@string/greeting_strength"
+            android:summary="@string/greeting_strength_summary"
+            android:entries="@array/greeting_strength_entries"
+            android:entryValues="@array/greeting_strength_values"
+            android:defaultValue="normal"
+            android:icon="@drawable/icon_wallpaper"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/additional_preferences"
+        android:icon="@drawable/icon_additional">
+
+        <MultiSelectListPreference
+            android:key="enabled_features"
+            android:title="@string/enabled_features"
+            android:entries="@array/features_values"
+            android:entryValues="@array/features_values"
+            android:defaultValue="@array/default_features"
+            android:icon="@drawable/icon_features"/>
+
+        <EditTextPreference
+            android:key="user_name"
+            android:title="@string/user_name"
+            android:summary="@string/user_name_summary"
+            android:defaultValue="@string/default_user_name"
+            android:inputType="text"
+            android:icon="@drawable/icon_user"/>
+
+        <CheckBoxPreference
+            android:key="enable_notifications"
+            android:title="@string/enable_notifications"
+            android:summary="@string/enable_notifications_summary"
+            android:defaultValue="true"
+            android:icon="@drawable/icon_notifications"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
